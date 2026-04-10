@@ -1,11 +1,8 @@
 import SwiftUI
 
-@main
-struct MainApp: App {
-    var body: some Scene {
-        WindowGroup {
+struct MainApp: View {
+    var body: some View {
             MainTabContainerView()
                 .buttonStyle(.soundDefault)
-        }
     }
 }
