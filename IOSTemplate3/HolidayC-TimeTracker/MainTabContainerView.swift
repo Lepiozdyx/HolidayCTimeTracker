@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 
 enum AppMood: String, CaseIterable, Codable {
     case joy = "Joy"
